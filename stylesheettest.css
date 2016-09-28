@@ -1,4 +1,108 @@
-div {
+#name {
+  height:30px;
+  max-width:90%;
+  border-bottom: 1px solid black;
+	font-size: 24px; font-weight: bold; font-family: Cursive,Verdana,serif;
+  position:static;
+  
+}
+
+
+#cell {
+  font-size: 16px ;font-weight: bold; font-family: Cursive,Verdana,serif;
+}
+
+#email {
+  font-size: 16px ;font-weight: bold; font-family: Cursive,Verdana,serif;
+}
+
+img {
+  border: 1px solid black;
+  height:400px;
+  width:300px;
+  position: absolute;
+  margin-left:80%;
+  margin-top:-130px;
+  
+  
+}
+
+#para {
+  border: 1px solid transparent;
+  height:100px;
+  width:600px;
+  text-align: left;
+  text-align: justify;
+}
+
+#attributes{
+  border:5px solid transparent;
+  margin-left:100px;
+  height:auto;
+  width:1500px;
+  
+  
+}
+
+h2 {
+  position: relative;
+  border-right:1px solid grey;
+	float: left;
+  clear:left;
+	width: 10%;
+	height: 100px;
+
+	margin-bottom: 10px;
+  
+}
+.work{
+  position: relative;
+  border: 1px solid white;
+	float: right;
+  clear:right;
+	width: 30%;
+
+	margin-bottom: 10px;
+  margin-right:850px
+}
+  
+  /*height:70px;
+  width:300px;
+  border-right: 2px solid grey;
+  
+  float:left;
+  position:absolute;
+  margin-left:0%;
+  margin-top:-5px;
+  */
+  
+}
+.right{
+  position: relative;
+	float: right;
+	margin-top: 50px;
+	width: 88%;
+	height: 400px;
+	background-color: #F4EBC3;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*div {
 	border-radius: 5px;
 }
 
@@ -12,6 +116,11 @@ div {
 	margin-bottom: 10px;
 }
 
+img {
+	height: 300px;
+	width: 200px;
+}
+
 #name {
 	float:left;
 	margin-left: 5px;
@@ -19,6 +128,17 @@ div {
 	font-size: 16px;
 	font-family: Verdana, sans-serif;
 	color: #ffffff;
+	
+}
+#cell {
+	float:left;
+	z-index: 0;
+	margin-left: 10px;
+	padding-top: 5px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+	
 }
 
 #email{
@@ -86,4 +206,4 @@ a:hover {
 #footer p {
 	position: relative;
 	padding-top: 15px;
-}
+}/*
