@@ -54,7 +54,7 @@ img {
 }
 
 h2 {
-  position: relative;
+  /*position: relative;*/
   border-right:1px solid grey;
 	float: left;
   clear:both;
@@ -65,7 +65,7 @@ h2 {
   
 }
 .work{
-  position: relative;
+  /*position: relative;*/
   border: 1px solid transparent;
 	float: right;
   
